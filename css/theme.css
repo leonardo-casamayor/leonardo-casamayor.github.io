@@ -45,3 +45,11 @@ body *::selection {
     color: var(--text-color) !important;
     background-color: var(--primary-color) !important;
 }
+
+body.dark #gh-icon {
+    display: none;
+}
+
+body:not(.dark) #gh-icon-dark {
+    display: none;
+}
